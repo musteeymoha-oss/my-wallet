@@ -1,57 +1,40 @@
-# my-wallet
-A flutter finance app
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Page Title</title>
-<meta charset="UTF-8">
+# My Wallet
 
-<style>
-@font-face { 
-  font-family: "Merriweather Sans";
-  src: url('MerriweatherSans-Medium.ttf') format('truetype');
-}
+## Features
+- Manage multiple wallets
+- Track transaction history
+- Easy to use interface
+- Secure encryption for sensitive data
 
-body {
-  background: #FFFFFF;
-  margin-bottom: 200px;
-}
+## Prerequisites
+- Node.js installed on your machine
+- NPM (Node Package Manager)
+- A compatible web browser
 
-@keyframes BackgroundGradient {
-  0%{background-position:0% 50%;}
-  50%{background-position: 100% 50% }
-  100%{background-position: 0% 50%}
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/musteeymoha-oss/my-wallet.git
+   cd my-wallet
+   ```
+2. Install the required dependencies:
+   ```bash
+   npm install
+   ```
 
-}
+## Usage
+- To start the application, run:
+  ```bash
+  npm start
+  ```
+- Open your web browser and go to `http://localhost:3000`
 
-.VCE{
-  color: #f2f2f2;
-  background: linear-gradient(45deg, #FCE38A, #f5ad4d, #fd81b5, #f74689, #ad5af3, #8a13ef );
-  background-size: 450% 100%;
-  animation: BackgroundGradient 30s ease infinite;  
-  padding: 20px;
-  margin: 30px;
-  border-radius: 0.5rem;
-}
+## Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a pull request
 
-.VCE_Title{
-  font-family: "Merriweather Sans", sans-serif;
-  font-weight: 400;
-  font-size: 30px;
-  margin-bottom: 0;
-}
-
-.JTime{
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: 20px;
-}
-
-button {
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: 16px;
-  padding: 15px 22px;
-  border:3px #f2f2f2 solid;
-  border-radius:20px;
-  word-break: break-word;
-  white-space: normal;  
-}
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
